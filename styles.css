@@ -125,3 +125,28 @@ button {
 #item-showcase div a {
     color: var(--button);
 }
+
+/* Quote Section */
+
+#quote-section {
+    background-color: var(--lightgrey);
+}
+
+#quote-container {
+    margin: 6rem auto;
+    width: 700px;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--darkblue);
+}
+
+#quote-container p {
+    margin: 1rem 1.5rem 0 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: 2rem;
+}
