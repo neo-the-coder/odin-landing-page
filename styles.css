@@ -1,0 +1,50 @@
+:root {
+    --darkblue: #1F2937;
+    --main-text: #F9FAF8; 
+    --lightgrey: #E5E7EB;
+    --button: #3882F6;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#page-wrapper > div {
+    padding: 0.5rem 3rem;
+}
+
+/* Main section */
+
+#main-section {
+    background-color: var(--darkblue);
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: auto;
+    color: var(--main-text);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#header ul {
+    gap: 1rem;
+    display: flex;
+}
+
+#header ul li {
+    list-style: none;
+}
+
+#header ul li a {
+    font-size: 18px;
+    color: var(--lightgrey);
+    text-decoration: none;
+}
+
+/* Main text */
