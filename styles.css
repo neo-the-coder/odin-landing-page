@@ -13,6 +13,7 @@
 
 a {
     text-decoration: none;
+    color: var(--button);
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 #page-wrapper > div {
-    padding: 1rem 8rem;
+    padding: 1rem 10rem;
 }
 
 /* Main section */
@@ -55,7 +56,6 @@ body {
 #header ul li a {
     font-size: 18px;
     color: var(--lightgrey);
-    text-decoration: none;
 }
 
 /* Main text */
@@ -74,17 +74,19 @@ body {
 }
 
 #main-text-area p {
+    padding: 0.25rem 0;
     font-size: 18px;
     color: var(--lightgrey);
 }
 
 button {
+    cursor: pointer;
     background-color: var(--button);
     color: var(--main-text);
     font-weight: 600;
     border-radius: 5px;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
 }
 
 #main-text-area button {
@@ -122,10 +124,6 @@ button {
     object-fit: cover;
 }
 
-#item-showcase div a {
-    color: var(--button);
-}
-
 /* Quote Section */
 
 #quote-section {
@@ -134,7 +132,7 @@ button {
 
 #quote-container {
     margin: 6rem auto;
-    width: 700px;
+    min-width: 700px;
 }
 
 #quote {
@@ -149,4 +147,39 @@ button {
     text-align: right;
     font-weight: bold;
     font-size: 2rem;
+}
+
+/* Action section */
+
+#action-notice-container {
+    margin: 2rem auto;
+    padding: 2rem 6rem;
+    border-radius: 5px;
+    background-color: var(--button);
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+#action-text {
+    font-size: 1rem;
+    color: var(--lightgrey);
+}
+
+#action-notice-container button {
+    border: 1px solid var(--main-text);
+}
+
+/* Footer */
+
+#footer {
+    background-color: var(--darkblue);
+    color: var(--main-text);
+    text-align: center;
+    padding: 2rem 0 !important;
 }
